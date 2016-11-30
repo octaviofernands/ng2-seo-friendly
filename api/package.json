@@ -1,0 +1,26 @@
+{
+  "name": "ng2-seo-friendly",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/octaviofernands/ng2-seo-friendly.git"
+  },
+  "author": "Octavio Fernandes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/octaviofernands/ng2-seo-friendly/issues"
+  },
+  "homepage": "https://github.com/octaviofernands/ng2-seo-friendly#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.4",
+    "mongoose": "^4.7.0",
+    "morgan": "^1.7.0"
+  }
+}
