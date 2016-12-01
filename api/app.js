@@ -14,8 +14,6 @@ mongoose.connect(config.db);
 
 app.use('/', require('./app/routes/index')(router));
 
-var port = process.env.PORT || 8080;
-
 app.set('port', 3000);
 app.listen(app.get('port'), function () {
     console.log('API running on port %d in %s mode', app.get('port'), 'dev');

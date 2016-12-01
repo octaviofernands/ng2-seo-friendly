@@ -1,5 +1,4 @@
 var user = require('../controllers/user');
-var config = require('../config/main');
 
 module.exports = function(router) {
   router.get('/', function(req, res, next) {
