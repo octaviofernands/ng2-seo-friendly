@@ -1,5 +1,8 @@
-"use strict"
+//"use strict"
 import 'angular2-universal-polyfills';
+//import 'ts-helpers';
+import './__workaround.node';
+
 import express      from 'express'
 import path         from 'path';
 import favicon      from 'serve-favicon';
@@ -9,6 +12,7 @@ import bodyParser   from 'body-parser';
 import config       from '../app/config/main';
 
 // Angular 2 Universal
+/*
 import {
   provide,
   enableProdMode,
@@ -20,6 +24,8 @@ import {
   NODE_HTTP_PROVIDERS,
   ExpressEngineConfig
 } from 'angular2-universal';
+*/
+
 
 const app = express();
 const router = express.Router();
